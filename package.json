@@ -4,13 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest tests --detectOpenHandles --silent",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "jest": {
-    "testEnvironment": "node"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IsaakAmerigo/blog-app.git"
@@ -30,8 +28,6 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.14.5",
-    "@babel/preset-env": "^7.14.7",
     "jest": "^27.0.6",
     "nodemon": "^2.0.12"
   },
